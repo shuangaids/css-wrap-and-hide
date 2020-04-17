@@ -16,8 +16,8 @@
   
   overflow: hidden;
   
-  word-break:break-all;
+  word-break:break-all;//这句话是用于避免英文单词不折行现象
   
-  max-width: 150px;
+  max-width: 150px;//如果不加这句话 上面的代码将没有效果
   
 }
