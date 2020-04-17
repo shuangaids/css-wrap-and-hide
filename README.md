@@ -6,12 +6,18 @@
 
   display: -webkit-box;
   
-  /* autoprefixer: ignore next */(避免编译丢失的情况)
+  /*! autoprefixer: off */
   
   -webkit-box-orient: vertical;
+  
+  /*! autoprefixer: on */
   
   -webkit-line-clamp: 2;
   
   overflow: hidden;
+  
+  word-break:break-all;
+  
+  max-width: 150px;
   
 }
